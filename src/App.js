@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Header from './Header';
 import Summary from './Summary';
 import FeaturesForm from './FeaturesForm';
-
 import './App.css';
 
 // This object will allow us to
@@ -47,7 +46,7 @@ class App extends Component {
       <div className="App">
         <Header/>
         <main>
-          <FeaturesForm features={this.props.features} USCurrencyFormat={USCurrencyFormat} selected={this.state.selected} updateFeature={this.updateFeature}/>
+          <FeaturesForm USCurrencyFormat={USCurrencyFormat} selected={this.state.selected} updateFeature={this.updateFeature}/>
           <Summary  USCurrencyFormat={USCurrencyFormat} selected={this.state.selected}/>
         </main>
       </div>
