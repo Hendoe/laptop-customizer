@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Header from './Header';
 import Summary from './Summary';
-import FeaturesForm from './FeaturesForm';
+import FeaturesForm from './Features_Form';
 import './App.css';
 
 // This object will allow us to
